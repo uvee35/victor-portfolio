@@ -28,8 +28,12 @@ export const NavBar = () => {
     
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="#home"> UveeDev
-          </Navbar.Brand>
+          
+          <Navbar.Brand href="#home" className="uvee-dev-brand">
+  <span style={{ color: 'white' }}>Uvee</span><span style={{ color: 'yellow' }}>Dev</span>
+</Navbar.Brand>
+
+         
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
