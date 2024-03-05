@@ -30,7 +30,7 @@ export const NavBar = () => {
         <Container>
           
           <Navbar.Brand href="#home" className="uvee-dev-brand">
-  <span style={{ color: 'white' }}>Uvee</span><span style={{ color: 'yellow' }}>Dev</span>
+  <span style={{ color: 'white' ,fontSize: '2rem' }}>Uvee</span><span style={{ color: 'yellow', fontSize: '2rem' }}>Dev</span>
 </Navbar.Brand>
 
          
@@ -44,11 +44,17 @@ export const NavBar = () => {
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#"><img src={''} alt="" /></a>
-                <a href="#"><img src={''} alt="" /></a>
-                <a href="#"><img src={''} alt="" /></a>
-              </div>
+            <div className="social-icon">
+      <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <ion-icon name="logo-instagram" style={{ fontSize: '25px', color: '#E1306C' }}></ion-icon>
+      </a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <ion-icon name="logo-github" style={{ fontSize: '25px', color: '#ffff' }}></ion-icon>
+      </a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <ion-icon name="logo-linkedin" style={{ fontSize: '25px', color: '#0A66C2' }}></ion-icon>
+      </a>
+    </div>
                 <button className="vvd"><span>Let’s Connect</span></button>
             </span>
           </Navbar.Collapse>

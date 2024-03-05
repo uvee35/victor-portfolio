@@ -68,8 +68,6 @@ p.danger {
  
  /* Navbar Styles 🎨 */
 
- /* NavBar.css */
-
 @media (min-width: 768px) { /* Adjust breakpoint as needed */
   .uvee-dev-brand {
     font-size: 2rem; /* Larger size on wider screens */
