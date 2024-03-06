@@ -14,7 +14,7 @@ export const HeroSection = () => {
   const message = encodeURIComponent('Hello, I would like to hire you!'); // 
 
 
-  //Fix the path to the image ✅❌
+  //Fix the path to the cv ✅❌
     return (
       <div className="hero-container">
         <div className="hero-content">
